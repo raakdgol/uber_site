@@ -1,0 +1,271 @@
+
+
+body {
+    background-color: white;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+header {
+    background-color: black;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+}
+
+.nav-bar {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+ 
+.logo {
+    color: white;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.login {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.signup-button {
+    border-radius: 20px;
+    width: 90px;
+    height: 30px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* padding: 0 10px; */
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+   
+}
+
+
+
+
+.heading {
+    color: white;
+
+}
+
+.subheading {
+    color: white;
+}
+
+.hero-section{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 400px;
+    border-radius: 8px;
+    padding-bottom: 15px;
+    /* padding: 0 10px; */
+
+}
+
+
+   
+.textField {
+    height: 50px;
+    border-radius: 9px;
+}
+
+
+/* .textField {
+    height: 50px;
+    width: 400px;
+    border-radius: 8px;
+    padding: 0 10px; 
+} */
+
+
+/* .text-input {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+} */
+
+.submit-button {
+    width: 110px;
+    height: 50px;
+    border-radius: 12px;
+    padding: 0 20px;
+    /* margin-top: 10; */
+}
+
+
+.hero-image {
+    width: 100%; 
+    height: fit-content;
+    margin-top:30px ;
+    /* padding: 0 18px;  */
+    /* margin: 30px 0px;  */
+}
+
+
+
+
+
+/* SUGGESTION SETIONS */
+.suggestion-section {
+    margin: 0 20px;
+    padding: 0 20px;
+    display: grid;
+}
+
+.suggestion-heading {
+    font-weight: 700;
+}
+
+.suggestion-items-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.suggestion-item {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgb(234, 234, 237);
+    padding: 2px 20px;
+    justify-content: space-between;
+}
+
+
+
+.suggestion-image {
+    width: 150px;
+    height: 150px;
+}
+
+.title {
+    font-weight: 800;
+}
+
+
+.suggestion-button {
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.suggestion-button:hover {
+    background-color: rgb(209, 204, 206) ;
+}
+
+@media(max-width: 510px) {
+    .suggestion-item {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+.footer-text {
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0;
+    margin-top: 120px;
+    margin-left: 40px;
+    width: 100%;
+}
+
+
+.footer-text2 {
+    margin-left: 40px;
+}
+
+
+.getstarted {
+    margin-top: 40px;
+    margin-left: 40px;
+    flex-direction: row;
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 5px;
+}
+
+/* .getstarted-button {
+    background-color: black;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 0cap;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    width: 120px;
+    height: 95px;
+    border-radius: 12px;
+    margin: 12 0 0;
+    padding: 14px 25px;
+    justify-content: center;
+} */
+
+
+.getstarted-button {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    margin: 12 0 0 ;
+    padding: 14px 25px;
+    width: 135;
+    height: 48;
+    border-radius: 10px;
+    border-color: black;
+    font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+
+
+
+.getstarted-text {
+    margin-left: 20px;
+    font-weight: lighter;
+}
+
+
+
+.getstarted-text:hover {
+    text-decoration: underline;
+
+}
+
+
+.footer-image {
+    width: 100%;
+    height: fit-content;
+    padding-top: 20px;
+    margin-left:  20px;
+    margin-right: 20px;
+    /* display: flex; */
+}
+
